@@ -3,8 +3,14 @@
 #name=syedrameez
 #age=30
 
+name=${1}
+age=${2}
+
+
 echo my name is ${name} and age is ${age}
 
+#name=${1}
+#age=${2}
 
 echo $1
 echo $2
