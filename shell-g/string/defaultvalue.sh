@@ -7,3 +7,7 @@ echo "Hello ${name^}"
 
 yourname=${unsetvar-mahira}
 echo "hi ${yourname}"
+
+#myname=""
+mytestname=${myname-kali}
+echo ${mytestname}
