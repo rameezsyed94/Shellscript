@@ -2,12 +2,12 @@
 
 function install(){          #first method statement function name(){content} and call
 #installtion code
-echo "installing ${2}"   # calling $2 from function call where we find inputs
+echo "installing ${2} ${1}"   # calling $2 from function call where we find inputs
 }
 
 config(){                  #second method just ignore the word function rest means the same
 #configuration code
-echo "config ${1}"
+echo "config ${1} ${2}"
 }
 
 function deploy {          # third method just ignore the round braces i.e()
