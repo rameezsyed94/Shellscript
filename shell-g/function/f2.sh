@@ -16,6 +16,7 @@ echo "config code3"
 
 function deploy {          # third method just ignore the round braces i.e()
 # deploy code
+config
 echo "deploy code1"
 echo "deploy code2"
 echo "deploy code3"
