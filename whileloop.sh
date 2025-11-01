@@ -1,4 +1,11 @@
-while Loop Syntax
+<<syed
+A while loop in Bash runs a group of commands again and again as long as a condition is true.
+
+👉 When the condition becomes false, the loop stops.
+syed
+
+#while Loop Syntax
+
 while [ condition ]
 do
     # commands
