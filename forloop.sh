@@ -1,3 +1,17 @@
+<< C1
+✅ Summary Table
+Type	        Syntax                            	Example Use
+List	        for x in list; do ...; done	        Loop over words/items
+Range	        for i in {1..5}	                        Simple numeric loops
+C-style	        for ((i=1; i<=5; i++))	                Classic numeric control
+Command	        for x in $(ls)	                        Loop through command results
+Files	        for f in *.txt	                        Loop through files in a directory
+
+C1
+
+##  A for loop is used to repeat a set of actions a specific number of times.
+## A for loop in Bash is used to run a set of commands again and again — usually a fixed number of times or for each item in a list
+
 #!/bin/bash
 
 # this is 1 example for forloop
